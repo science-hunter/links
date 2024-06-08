@@ -3,11 +3,11 @@ name: Docker Build and Push
 on:
   push:
     branches:
-      - 'master'
+      - 'main'
       
 jobs:
   docker:
-    if: github.repository == 'harsh98trivedi/links'
+    if: github.repository == 'science-hunter/links'
     runs-on: ubuntu-latest
     steps:
       -
